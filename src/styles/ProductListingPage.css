@@ -1,0 +1,44 @@
+.product-listing {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category {
+  margin-bottom: 2rem;
+}
+
+.products {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+}
+
+.product-card button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.product-card button:disabled {
+  backgroundлятор: gray;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    max-width: 100%;
+  }
+}
